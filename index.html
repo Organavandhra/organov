@@ -1,0 +1,244 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organov | Organic Products</title>
+  <style>
+    /* <script async src="https://www.googletagmanager.com/gtag/js?id=G-5MPSGZD52F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-5MPSGZD52F'); */
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 95%;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    .hero {
+      background-color: #c8e6c9;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #2e7d32;
+      text-align: center;
+    }
+    .hero h2 {
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 24px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      background: #f8f8f8;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 280px;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card h3 {
+      margin: 10px 0;
+    }
+    .price {
+      color: #2e7d32;
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+    .buy-button {
+      background-color: #66bb6a;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+    .contact-form {
+      background: #f8f8f8;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .contact-form h2 {
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 300px;
+      padding: 10px;
+      margin: 10px auto;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background-color: #2e7d32;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .product-card img{
+      width: 90%;
+      height: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Organov</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Shop Our Fresh & Organic Veggie Boxes</h2>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product-card">
+      <img src="https://static.independent.co.uk/2021/06/15/11/Medium%20very%20veggie%20veg%20box%20by%20Abel%20%20Cole.jpg" alt="Veggie Box">
+      <h3>Organic Veggie Box</h3>
+      <p class="price">₹299</p>
+      <a href="https://wa.me/919000000000?text=I%20want%20to%20order%20Organic%20Veggie%20Box" target="_blank">
+        <button class="buy-button">Order on WhatsApp</button>
+      </a>
+    </div>
+    
+    <div class="product-card">
+      <img src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/142498/MelissasProduce-Organic-Family-Box-Product-1.jpg?ixlib=rails-3.0.2" alt="Veggie Box">
+      <h3>Organic Fruit Box</h3>
+      <p class="price">₹349</p>
+      <a href="https://wa.me/919000000000?text=I%20want%20to%20order%20Organic%20Fruit%20Box" target="_blank">
+        <button class="buy-button">Order on WhatsApp</button>
+      </a>
+    </div>
+    
+    <div class="product-card">
+      <img src="https://www.jiomart.com/images/product/original/rvdjsitxio/netrowel-premium-combo-multi-purpose-storage-box-with-four-square-bowl-and-lid-4-section-dry-fruit-storage-box-white-black-product-images-orvdjsitxio-p605235833-0-202309301522.jpg?im=Resize=(1000,1000)" alt="Veggie Box">
+      <h3>Combo Veg + Fruit Box</h3>
+      <p class="price">₹499</p>
+      <a href="https://wa.me/919000000000?text=I%20want%20to%20order%20Combo%20Veg%20+%20Fruit%20Box" target="_blank">
+        <button class="buy-button">Order on WhatsApp</button>
+      </a>
+    </div>
+    
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1bTBWmyAFLYg82ji5e_fjYS0lkPiLh-5MRg&s" alt="Veggie Box">
+      <h3>Leafy Greens Basket</h3>
+      <p class="price">₹199</p>
+      <a href="https://wa.me/919000000000?text=I%20want%20to%20order%20Leafy%20Greens%20Basket" target="_blank">
+        <button class="buy-button">Order on WhatsApp</button>
+      </a>
+    </div>
+
+        <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIrnKns44LEhTQAQDtrvpTg8DryiwCZszKcQ&s" alt="Veggie Box">
+      <h3>organic dry fruits Box</h3>
+      <p class="price">₹199</p>
+      <a href="https://wa.me/919000000000?text=I%20want%20to%20order%20Leafy%20Greens%20Basket" target="_blank">
+        <button class="buy-button">Order on WhatsApp</button>
+      </a>
+    </div>
+
+        <div class="product-card">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhMVFRUXFxcWFxUXFRYXGBcXGBgXGBcVFRUYHSggGBolGxcYITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0mICUtLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLf/AABEIAOQA3QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAECAwUGBwj/xAA8EAABAwIEAwYEAwcFAAMAAAABAAIRAyEEEjFBBVFxBhMiMmGBkaGxwULR8AcUI1Jy4fEVM2KCkiRDov/EABoBAAIDAQEAAAAAAAAAAAAAAAEEAAIDBQb/xAAsEQACAgEEAQMDBAIDAAAAAAAAAQIRAwQSITFBBRNRImHwMnGBoRTBFZGx/9oADAMBAAIRAxEAPwD1jH4iC4DWfgsxyJx3+47qUMQk5q2broiGDl8lF2HBM6HnY/VWhqlCrtRawR2CGwA5wInbUKipw+8gGd4IiP1K0gFJT20wrIzBr8LcHNcyCfxGzZaYkaE7Ax6IunRc0GWTy3/R/NaY6K3MNIQWJLoLyN8Mx8O8k3zTyg/T4I5uAc6DGmhOyufSncqYLho4nSQVFFrsDaYMMA6YL28yQ245C539UTS4Yze55Ek9LCOSsY3Um2hM3vEAf2UrgnwzJJBkSJ+hUquyX8Cwz4BDRsCNJ5fr3U69Sw5/cfWPyVWGq5RJcJMX9LwAJ1Umtm5sOSi6J5GY31gmY3943uRPVJ79uk2iTATvedvj+Q+68L7bdvcV+91adCq6lTpONMBoEuLbFziRe8+yKTfCClZ7jhzmlzTIs2Og1n5exRjRLr2touO/ZV2l/fcKTUyd/ScWvDQGzN21C0aZr+7Suz70cvFFxy6nZWjHauSknyWNaJOn61+yd0RIiVQ18agAazM/GVcW2i3Mf5VyjB6j4iQTJ2H15BRuJlxmbRA6A3TuF5Gp3nTpyty+6m2ANrWPpaY+BCyLWRdfrsL67aWA1+KJfaDrY6b6BBFk5RJF5H/W8H02+CIOKY0gSLagHMb7QFaPkqy5ki0QI+axu6WjVxBOgIHrb5IUraCAykMWnwcWd1CBJR/CTZ3UK67KszMd/uO6lUhX40fxHdSqQEu+zRdCShKFJrUAihIKScBEA0J4ThJEggpMmbJoV0QPU/Ic1CE2CSBsDrzdufZWVWqFGyrxmKDBJPtuqydK2QRamcFm1OKHl8vzKYcUd/x/XusHmiX2SNF4kRf2MfNcLxz9lmDxFV1bvK1NzoLgxzMpO7ocwkE73XWN4m3cEdLq9mJa7Rw6afVWjlXhkqSMrh/ZulhjQOF/hdzLTee8punO153JdD55tG1lv0qgFzrqfU/kqEiVdyZUKr1pFoJvpppv7pVsUxkeIExEC5PsLwgXFVVK0alD3K5JQa3Eu/DTcTzdDR87/JJxqu1c1o5NBcfi63yQnCMQapc78LTlHqdz9PgtSAtsajJWCTpgv7q0+bM/+o2+AsiGNiwAHQJ5TFy0pIo2yL1S4qb3KlxRIiLitLgps7qFmFafBRZ3UKLsDAMYP4jupVKuxn+47qVSQsH2aIQCsASaE4QIIJ06dSiDJJ07RKJB6YGp0HzOwTF25/X9lidou0TaMsYJcB4RtmNgT6C/wXMcMwrnHM8kkmSSdSbpHVa2OHhcjOLTuat8HduxwBWNxLHEmdboWvVyxeFjV61QuIg2+cbenVYrUvNC0aRwbWLGYp7wXHy9dTyQeZzRJ+SKfSaGjOZM/DVUPZMQ624I+F1m7GI7SFHEumxIjWdFojiAFgQfe3xQ2AwQdmc8lrjyIggaIelSD2EANb4joINjEiVHIOxM1aPGqrXAW+I+61qXGzbMAemv5LisPQcwuLnOIA05XM6eg+aIlpa2o10C4/XrZaRySXTKSwxfg7xuMa4SD7H8ljcWx7vK25NgBuTsszhtV7v6eZ1R/A8A9+Oyvu1jBVDtjJLWg+oIJ9lqpSyPaKzgocnYcJwndUWt31PU3KJJT4h0BZpx7S7I27vkOq6O6OOPPQtTkw0vVfeDmPigOJ1I/hNce8cJkbCRJ+yz8f3dCm5ryZ8MRmEy4akWXPyepJOoxs2jp78m8CDoZSyoXhNQOYMp6otxTWl1Uc8b8/Blkx7HQy0OEmzuoWcXLR4QbO6hOR7MmA4seN3UqqFdi/O7qVUEs+zRChPCUpygQcBJIJ1ZAYyz+PcVGHolx8xs0ep0R1WoGtLnaD59F55j8U7GVy4f7bfLy/qjf09PdL6nOsUfub4cW+X2M2hVfUrCRme83vAHM7xA+wXY0KQaEDwzhgY4nUwB+fzVnEsRBbGgcJ6CSfovNZciyTOqlfCM7HYpwrVAAHBp3BiABNx5Z5myrw9S0kk8p1jYH2hA4ym+pXaKTnNY5meqQTcOMhp6iLeiOxocBYTHIfddPDGopIxyPkB4tjPE0fFU0sSJ1Amd1j13veZDbTEzKjhnuzhgEk7xpzOmic9rgy3HQ4bGQfaOfpKI77f56ICo11IkQ0CNbaqllV7wTkJEnQE/RD2gqQfVJdaYbv6+4SoUmkhr6YIaSRFxfYzc80I0mJII6yPhKIONA8t3emg6lD2wt8G3hMdTJytcAdJjSNdV2PZyj4DUN858J/4NsPnJ915S7g7sU4OoPcyr3lNji3RzHnxSBaWgOIPpHKPaaVIMaGN0aAB0ATOnxtcsUzNdA+LZmssU4Q06uds3FzEj06LVxmLbTu8xJgWJNtdEA3jTS4tDSfcT1jYdSpqcmBx9ucqf9gxwyfqiuAWqwd73zqkkjLl/KEHwzGmvVeKpAh0NaYHhAF4Os/dC9rOMvDQKbnNLXSQy5IEiD6SuJ4lxOvWqS00jFoBh0j0Bi5XMngSbSl/Pg6GLHKcbPVeG1muqVA3L/DdlsI0G8LQc0rgf2e8Rqmpkew5SXZp1YWjUjS8ALv6lUJ306Eo7rE9ZDZKiLaS0+FtgO9lkOrk6LT4LMOnmF1IvkSfQLivO7qVWrMX53dSq0u+y6HShIBOgQZJIrI7R8VFGmQPO6wH2/P0UlJRVsMU5OkYnbDineO/d6Zt+Mjly9/p1UeF4drWjLMrMwGGJJc65cZJ9SujwlOAvNarUvJN10dWGNQjQqrgweqyMY3Myodw2JmAJ3J5ASrMbiO8qZRo25M7xMR6C/wAFbjGZARrLRLdhyB5m+qpiwNuy7ltKeH4IUqQLTmzAEuO9rRyEWQ2Nrga1OoAzJHGlxDdbaR9kNxB7GjMGkmYsPuF1YIwd9lDcK2o+CYJknb/Bt81oUX4eg0QAZ9PN63WRhnA+JkyNj9EPUezNDi5rjbxER6BsiI9ASt03ROLCcRiQ9xJIA1AixjUj1/sg8bxNwyhpIEAgQAd+SiMFEtDjBuJ58wq8Nw91d0BwJY2553NgfQELRJMBZh8VUrWkzMH7OjcHQ+60zQpUgS4SQJJ/D0galCvxFGi0hzSyPDte9yURw3Btq1Wsc8BljBuZixH63QA+DrP2c0C/vKrojMIEaQCAPafqu2cs/s7w0YegKY5kzzkzKOxDiGkjWLddk5BVESk7lZwtbP3lZ1YOAc6WEaAcjO8RosY8PpVP4z3GmQGlrmufmILoI8Ot4BC9PdgmkQUEOCUWzlbG8SYnnl0XLyemzc3khLv8Y/j1sVHa0cBiqwa402kZyMznuIytaNb6m1o9Vh8UwdOnUYXslzvIbRa5loJiJsNV6Bxjsx3xsGRycNfdU0OxdiXPDXGLgFxEciYn3CxWjy45bYptDMNXjq2zP7JktfYFucEGbknWT8NPyXXto80sHwqnSksFzq4kk/PRFQupo8E8WOp/JzNXmjkncSptJafCxZ3sggEfw3R3snV2Jsz8WPG7qVXCuxXnd1VYSz7NF0MAnCScU5tpaXHkP7qEBsViAxpedBp+fReb8W4i99UVXUqj2OgMIjcZtPUXOmw2XV9s3E0iBYEacm8up3WBhqJ/d6L7SKZBkTzy+8JLO1O4sawLb9RDgXHcPVdkDi10xleIuNgdPay38bWyi2q4XiFJrMPUcRqHAX8QJ/EPlouq4C2piKFGoRmc5jBOmZxbJceQsSVyc2jSaeP5qh5S8yJcNwRaAbuIi7t3GzQTyk5jyslWIzPvmlzr82yY6eGEJxzixbiW4WkZFNp7w83v16Q2f/UbKYpPcPCJ2PXkE7GG36fJRpydjU6zWCzJPPn8FW/F954Q3xA/L22T16AYPE6SdAPuUuGk+MiBBAtuAJudyrN7VyXUE0Dd80OhzBPQA/FF9zQcCCJm8G4O92kEJsW820dfQ/nqp18E0xByu1OUyOhCtGaqyssfNEaeAo/hAb6CA3rk0QT+z7QSadV1Nx0LRN/W8pUsPcjMHASJFo9ipU6EEkk5QJMk84AEfdaxy2UeGjL4p2brVBetTcRoXNcyf6iA76IHsVwnEjiFKgX03MJJfkc52VjRmJaXNFjAbb+ZGY3Exmm4EmPTYdJIC6X9j3CnZsRjKly6KTD6eZ8ek5R/1W+KW7gwzJxVnphUAQTHupqrDGZdz06fr6pvykJlzgsfFdoMOw5S+TvlBdHuLIDtpXqilDNJ8VwCRyC4wuLWahpNgYm50gGJ6Lna7Xzwy2QX/Z0tHoY5Y75P+Ed/iO0GHawP7zMHTlDbuMa22giLwsbGdvKFMCadTM45WtOUTaZJzWC4fC4esNmi5l5Ml15Jy7E662SxuApuyurOIIPhfmgybQBF+iXfqU91cV9uRyHpuJd2z0jgXaOniZaAWPAnKTMjmCtiF5Z2UpVGYmm55DWhxGaTBEOFxtMjovUA5dHR53li7dtHM9Q08cORbOmiaN4dofZZ5KO4Zo72Tq7EGB4rzu6qAKsxPnd1KrSr7NEIelybAev5K4tjwi8GXHm7WOg/JNSBHi/EbN9BuSpU2x+vmVAo5ztjT/hOPoVh0B/8anBnwNPyXUdqac0XdCuP4dWaKDGcmgFI5lUmNYuYmbxjD5qJy0zUfsPWCJ9IXT9nMe6hhmUgPEyixgMfiAhzr9EO6jkpZvxOEgbybNB9BqqRgHZYJIn12vPusU5Lo2dSVMHZhWBxLWNzkkkhozE7ku1Oup5q5rXAwLDki8LhAwQ0QPuizgHSI+CpyWcgbC4R0zbpCuNGL5RdamHpQL2Kk7CCQHAwfmrc0Z7+Tn3YEPdOX3B36Sszipq0v9uiag3yuv8A+SL+y7U0GDRUmg3MLC6PHkKys80/1m8BsQQXtPhe0O1MGJKO4hinUwMoLmxeNd7+q6ntRhWVGhvdtf1Ex03HsudfhXsaQ1pe0DQ+cD/i7cehv12unGzRZb5OX4pWk5QHAvyiIvd0kx/0K9v7L8N/d8JSpRBDQXf1Ou75kryrstRGJ4hSZ5gwZp3hs6+5j3XtLk9p4+RXVTt0IA7RPqno0YbHU3vrfdIMBUcXimUmlz3BrRufgmVSuTFOW6QBxLg7Ko8U8xB0PNcf2g7Kv8L6Rc4sM5bX2NhF4K6vGdqMJTjPXZ4hIg5rc/DMIvB8QpVm56T2vbzaZvyI2PosMmHBldur+fIzjzZsSXdf0eZMdFjaLQZBB5EDRX1KbakAjMZBAib/APH1Xo9XDU3eZjT1aCo08OxvlY1vRoH0XLfo73Wp/wBD79UVfp5/c5vhvAXSDVgAXy7nrGi6EBWFqjC6mm0uPTqoefJzNRqJ5nciMI/hosfZBgI7h+h9k0uxdgOK87upTUmTroLlTxIOcgakmOm5UXAaDyg/+nD7BKvtmiHDpud49hsFMlRYoVnwpdIsZnHqk03jmCFx/ZvD9/lcbsaSfSfwj4XPT1XRcQJqOyXjcgT8eSu4Xw9mHpNpNNhe8SSdS6N0jKW+RvF7Y0DY5kuB2/V0qNEE3RRoOqGGAuPLT4nQBWf6S9syRPL7Ss3jk+UWU0uCumGZYtMoFmLc2pkdfkR90XSIhVurNHLqs3Fl0zV7xuWTEqitxHM0AtErKr4vSE1TEWzBWcnVIG1CqvcX2OmoVgcXmLgDX8kGaxJmyvwTpmSAs6ZZlmIcBYa81mUZkjUzsr8aHueGsv8ATqtngWDYJnxEDxOOmn4RyWuPG5MrKW1EOyXA2U6+IxAblL8rAPQDM5wG0k/JdQU1OmGtAFt/innddeEdkaE3K3ZPRcL+0bi4psawizsxPRsEAe67io+BK8q/aHiRVqFtSmIpjw+YHxRJJGo+VljrJJYtr8jWghuzJ/ByNWSWkGbEkEAnkAb31Q2Hx7hVyg2d4fDYB0izm2utBlF1YikxuZ7czgZg2bp1i3ssesxpqlwcWuBDXMLNQGwTJ3m0RaJXOxxTXJ2snLPSOC9tKrDSpVWBzbNzSc5BMA6wY6bL0LMvFODY51N4czLLdMwzCeZlew8PxAqU2vBBzAGRMTvE31lOaLK3cJPro5XqOCMKlFVYUUydJdA5ZGEdw/Q+yDRmA39kUBg9cZXOAPieTf8AlaN/1uVTPKwFgPRSrDxuk6m/QaNVT3wlH2zZFswJQjsRTAzVTAOjdz90Pj8cGNM3PLpzXPs4h3jnXDoF409B6pXNnUXSNYY7VmpiMWCSGtDROkfYJqePos84dUO4bcD4R8ysSpVdfMbchMe5+yHfWzWAJ5ADf0A1Sqk91+TbZxRt43tQ4NLaDBSH8xAJHQaD5qrE1nsoiq95JdADnSXXEzf6I7hvBadBvf4twbF8hNpP838zuTQsPiXaVtao7Mwd0bBp1j+b0d/hMzjKvrf7IkEm6iv3YqXE4HP2P0SPE6Z1+h+xKExNNjQHNALTuOXTmgMT4tGgE6Ea35g2IWSibbU+jom1GkWAPumfVAGiyKVMhkFwEX02VQ4g8nJTMgakj7FFw8ldjs1xjhyCvwPEacy5vsbfFYLcY9zi00w4DVw8MdToiO7aRIeB7zHuqq10Rw+TsKNam8HKAHRYHfcCQocCqGpVnYCC2IyzqI9vmvPsdialMB0h9P8AmY19T2imDdd5+z2uK1F9cBwBcWNzNLXHL5nEOvJNv+qaxxlOSbF5pRTOqeVHce/zt+v7pEq1rIPtp9E/2LPgdzLLh+3XB61SH0ml8fhGsyNuULuiUPiqOdpbJEgiRqqZ8Syw2svgzPFNSR4k3CVaFQOZlbUjmHmnIuC2976H1VPFqVM13PDB44eZ5yQYEmAS2YHqvQsJ2EYx0uqFw9BBPUmUZxfspTq5C2GOZYWkZdwRuuUtPqKlxx8eWdqWuwbl5+5x/COAVMQ4Hu+7ZAh0QyN8vPovRcBhRSptpt0aInnzPxVmDwop02sGjRH91cQn9LpVj+p/qfZytVq5ZuPCIwknSTgmRRvD9/ZCAIzAb+yKIZeKxbc7hMQTsqXAu8sHoUJxL/df/UVQw8lzpSttDCXALxHCPJOcEDkbA+pd9kHhqQYHTAttC6Gni3jeR63Sd3b/AD0xPMWPyS706btM1WTwzkcTUmANOiOwDcjc7MgdfxO1HtsJWy7hFJ3lqOaTsbhA4rg2JYc1FtJ4Ate88/FZVWGUeTRTjLiwSvW7wNdUGdw1EmAZ1be3KwWJxXhTjdoPPUE/C3NS4hicXTdNTCPmZzAOj/0ARqgndpR+Nj2neCNfUEKzTs3hx0NwvGua40qjTBFw4FvwlGYqgKbQ4XBmCL/NB0+J0qjxmzFsEAZYIN9XD2036IiriCwgDxUXDyO1t9CjXJbvkBqYhxsAZdtPzJRuAw0NkuM9fv8Akhq9md5Sh4m4PmZyBA+qjh+Iy2NDpz1shO6pBj2PjMUSYmANhb3hV4HFupPDrEAyZ0IR1Ls9VLe8qZWgiYnM6I5TAn1WRVoEuLAyQDufqdFVRYZTjVB/a+nTAZUw8U3PEuykhrw7Sw3nf/C9T7NcO/d8JQonVrBmMAS43cYFh4iVxHDOB95WwbXNlrS+odYDWwQD1dHzXpTyuhg+TmZO0iLBJChiMRqR7dFIttOu0fSfRDYswFvZl5PIuNcToji1U4jFV20W3y0nVJbUhoyywG3mEfFYTu1WLp4vLQr4htAQWGtULmupNJuQBEEWEAnS6G7TVgMU52BDsznua9zH521HuM+DciZ9OSb9zqup0qLyJLizOC8hjNGh4sT4nvF7WIAKR30rfn8ujurFyr+EdXwLtHxB7n1G1qzqbWmWVaTfMZiACHkCxkH0XZdg+MV6xxFOvUZUFMsyVGxcODvCSNSMo9ZJXm9Th/d0KmHJq99khrRJ712cnvKYMZQ1oIM8+k5/DsTh2Ng5xkgioIpVGkiSC1sz4p10t6rPHlkpOSdr4+3yXyafHlTjSV+a8n0KkvIOwXEeIPc0txJqUjVDIqkv8M+Igm/lFp3cPVevLoY80clpeDiajTSwNJtcjFKU5UAtRYeUXgN/ZCIvAaH2RRDA4iz+I/8AqP5j5EISFu8TpS6edvcafdY72LnzVSYxF8DU1IJNapQggiarWGFABTAVkBl9PEOG6qxOFoVf92iwnmBB+IumhSCsDroysT2Qwj/KX0zrrmH/AOp+qqPZF4nLUZUnmCD/AJW4CrGlB44st7015OFPZKtTdmax7TzHiB6hpdY8oVf+jUsPNWoDOzDI/wAddV6E2q7mVN9bMIcGuHIhV9j4Zb/Il5PN8S2pjMOO6EuFQw1pAAaIBaST1KIwXBHtaM1Nwi+WDc8p3Hqu2w/DcOxxeyi1jneYs8M+pAsT6opuGp6hzgfVBYJIjz+CngeDytzuHiiOkwY+iPKlTblYBM8yq6j4BIEnYDmbBMx+mJjduyYJNo8Iv6zf5LK4/VyUaj/5WPd8GkrTwlANBMyTqZ5Wsq8dh2va5rhLXAgjmDqFdW48ki0pI+XsVQcwtIdUNQw5kMb4mODiXk3JM73sutGEa79yp1e+puqsa973ANaMoNRmQatvAPOSdQCu54p2LogTTphpaDBbmDoEkNBDpidguaotrVqTqlahUreBmUNzipQLIlppuaDMT4hbw+q52bfXX5+cncxZYTdp8FWDxlahWyig2s6KjqdQQHVGtJLnF7pDSOZ826wP3tlWpmZTaCA58PAc8gMJqMqk63iLCxOkXuwNIjFZarn06bmHKwPbJpFxLac0500MRobLX4pjcIKgp4YipR7txqsc+p5nuAFXMJe8jxeEyIG0rFRjF7at134GXJqamvP5/wCFvYDA95jWvaXUqDXZhTbIY+qNQAbxAB+K9jIXln7Oac458wWhhNMsbFO0ttsCAToT5jyt6m9PaO9rf50cn1VVmS+wydyYBOAnDmEEZgNChXNRWA0PsrIjObOOL312OzTSrOy5Wza7hPKfL8dFEYxj3lgzBwEwWOFtJmI1Cpx+BcK9V9NxYXEgkAGR7g6fdVuFYDRjrz5cs33i3whc3JHIpNoZjtaDw1ThAUMZ3Yyup1CD+MkPy+gAh2X3JRuDqNMDvQZi1pBOxGvoD+iYyflEca6JgJ4V1RoAmQRfQ8tfok0Tf9Wsr8FGVAKQCnlUXAjRHoA0qxoTBqkAigMdOEk7VdIqIKTUykArJEDDoh6tSCBvrp7A/E/2V5NgqnU5e22ni+HP/wBITuqRZBFMaAcknNUa9cNErhO1faKpPd06mUfiLbug2DQYsel7hDNnjhjcjXT6aeee2J2lVrd1nU3UapeGPY8tOV0EEt9D+ua8pxuOqVgGl9SwcB4rci07XC6j9nPDqjHufcNy5XE2DneEiBvF77T6pbHrfcmo7ex/N6Z7OOU5T6NfGdlabiHNGRzXZxkJZfcHLsdCgsV2dpsc+rTwbHVHiHNcRUa4iSJ7wWBm5Ea7wu2ATlqYlp4N30IR1M1xZz/YzhdOlScWUDQc57nOpnNDXWBDM34bTIsVvOUkitYQUFSMck98rIpwlCcBXKDOCIwI19lSWojBjVFAZkYpn8R3UpNpqzE+d3UpMWbXJfwUuwwVFXh7TqAfZaICeEKRFJmM/AEeVzheYkkcrg+gRlHGVWgBzQ8DqD8TMozKm7tVWKN2W3NgNbFNLpyuboPSPWD1+SNpNaWy14dz/wAJnUQqnYEHZV9qnaJuvgk8lpgtI5QJBtJiFZCHODds91oi5OmmvVXGq8NyloI0kSDHSdfWUKkuyceCWVPkQgrxENcJNyTZo9+f6iyIbXsLh0NBcRGp0AbJPPVBZF5C4lkJgU/eiJMjqPuFJrZOq1Uk+itF58o/WuilRBj2H0VeJ8vqId/5IKIaIaAjHmQGZ2Po5gRzXj/EP4T30ak5m78xsehEFez4iq0eZwA9SAuN7X8Nw2LbArUxVHkcHNJ9QRN2+iV1eCOWueUdT03VPBJ2uH/R5rRqlji4G0jflut3Edqnl1Id65oh4OTwi4blJj36XXJ4rB1KT4e0kXALDnB2tlkxrqFfwvh78Q0mm0lwMscRqRff3klJPHt5v7Hdm8eRbpU65PQv2fdon967D1nucXGxcS4h3oSZgjbovRV4lwDieV7WOEOaREyHNIIs5uo+i9rpvkAjcA/FN6LJJ7oS8f7OF6thjHIpxXZJMU6S6ByRgE6SShBnFX4Lf2VJCvwg1RQGZmK87upUWFPivO7qVFhWb7L+AhqkosTyoAdJRThFERIBSChKkrFiYSDUwKkCqNAE2na4UKmDadlaCpSjVksGOEIAyvIiLEAiBtfZAYzhz3PDg4gcmuIE7GDaPyWwCmJWc8MJqmGM3F8AWHmWh0zvM6Re+mp+iF7RVqjaL3U5kNJEegWsouaCosVRcU+wxnUlKjw7FY17/ESSTckm5PO/JZ/EXOLMsmDzOnMndewYzsfhnuzZS2ZkNMCTvCBq9gcO6PE+ecyuT/h5Yy/TZ6eHq2laSaa/g8i4fhYY5hJgZXEREyPKINxmHvGgW/gK+TLkOSBtbci0aaQvUuH9mcPSYWBgcHRmLgDmjSfiqn9kcGf/AKQOhcPvzW09Fkmrb5Fv+Vwbmtro88GKD3h9djasERnbleG7gVWFpG9jK9bwOXu2ZPJlblH/ABgR8llYTsthmOzZS6NA4yBvpv7rbATOkw5YW8j/AD9zna/U4stLGmq/OiQTpglCdOcJJJJAglfhd1RCvw26sgMycX53dSoNTpLN9ly+mpuSSUKkCpBJJQJJOkkrlhBSCSSAGWBMnSURUZxTNKSSnkhJNKdJHwAiUikkoEQSSSUIMnSSUIJOnSUIRcmlJJQhJX4bdJJFAZ//2Q==" alt="Veggie Box">
+      <h3>organic dry fruits mini Box</h3>
+      <p class="price">₹199</p>
+      <a href="https://wa.me/919000000000?text=I%20want%20to%20order%20Leafy%20Greens%20Basket" target="_blank">
+        <button class="buy-button">Order on WhatsApp</button>
+      </a>
+    </div>
+  </section>
+
+  <section class="contact-form" id="contact">
+    <h2>Contact Us</h2>
+  <form action="https://formsubmit.co/andhraorganov@gmail.com" method="post" style="text-align: center;" class="form" id="123"><br>
+    <input type="text" name="Name" placeholder=" Enter your Name*"><br><br><br>
+    <input type="email" name="email" placeholder=" Enter your email*"><br><br><br>
+    <input type="number" name="Number" placeholder=" Enter your Number*"><br><br><br>
+    <input type="hidden" name="indian_time" id="indian_time">
+    <textarea name="message" placeholder="Enter Your Message*" class="message-box"></textarea>
+    <br><br>
+  </section>
+
+    <button type="submit" style="width: 20%; background-color: rgb(224, 224, 224); height: 30px; margin-left: 40%;">S U B M I T</button>
+  </form><br><br><br><br>
+  <footer>
+    <p>&copy; 2025 Organov. All rights reserved. | Email: organovandhra@gmail.com | Tirupati</p>
+  </footer>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5MPSGZD52F"></script>
+  <script>
+    function getIndianTime() {
+  const istTime = new Date().toLocaleString('en-IN', {
+    timeZone: 'Asia/Kolkata',
+    hour12: true,
+    weekday: 'short',
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  });
+  return istTime;
+}
+
+document.getElementById('123').addEventListener('submit', function () {
+  document.getElementById('indian_time').value = getIndianTime();
+});
+
+window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-5MPSGZD52F');
+  </script>
+</body>
+</html>
